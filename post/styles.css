@@ -1,0 +1,126 @@
+p {
+    line-height: 1.6em;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  a {
+    color: rgb(169, 215, 255);
+  }
+  img {
+    max-height: 70px;
+    vertical-align: middle;
+  }
+  blockquote#kutipan {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+  }
+  #daftarIsi {
+    width: fit-content;
+    height: fit-content;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  div#daftarIsi ul li {
+    font-size: 92%;
+  }
+  #daftarIsiTitle {
+    text-align: center;
+  }
+  #jenisJenis {
+    padding-left: 8px;
+  }
+  #kategori {
+    padding-left: 13px;
+  }
+  #images {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: rgb(30, 64, 95);
+  }
+  #marginToTop {
+    margin-top: 75px;
+  }
+  #sumberPustaka {
+    text-align: center;
+    margin-top: 100px;
+  }
+  #bookSource {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    transition: all 0.5s;
+  }
+  #bookSource.hide {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  #internetSource {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    transition: all 0.5s;
+  }
+  #internetSource.hide {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  #imageSource {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    transition: all 0.5s;
+  }
+  #imageSource.hide {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  button {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 4px double rgb(30, 64, 95);
+    color: rgb(30, 64, 95);
+    text-align: center;
+    padding: 5px;
+    width: 230px;
+    height: fit-content;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: #679aff;
+  }
+  button:hover span {
+    padding-right: 25px;
+    color: #ffffff;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
